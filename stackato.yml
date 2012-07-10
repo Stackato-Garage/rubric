@@ -1,0 +1,8 @@
+name: rubric
+
+requirements:
+  ppm:
+    - Plack::Builder
+    - CGI::Application::PSGI
+    - Rubric
+    - Crypt::Rijndael
